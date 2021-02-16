@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js "data-auto-a11y="true"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>오늘 뭐할까?</title>
+</head>
+<body>
+    <section class="wrapper">
+        <!-- 제목 -->
+        <header><h1>오늘 뭐할까?</h1></header>
+        
+        <!--  시계표시   -->
+        <div class="clock">
+            <h1 class="time">00:00:00</h1>
+            <h1 class="day">day</h1>
+        </div>
+
+        <!-- 사용자 입력란 + 버튼 + 카드 색상 고르기 -->
+        <div class="input-card">
+            <div class="input">
+                <input type="text" placeholder="오늘 할일을 기록해보세요...">
+                <button><i class="fas fa-plus"></i></button>
+            </div>
+            <!-- 카드 생상 고르기 -->
+            <ul class="colors">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            
+        </div>
+
+        <div class="todolist-board">
+            <ul class="todoList">
+                등록된 데이터가 없습니다.
+            </ul>
+        </div>
+
+        <footer class="footer">
+            <span>오늘은 할일이 <span class="pendingNumb"></span> 남았습니다!!!</span>    
+            <button>모두삭제</button>
+        </footer>
+
+    </section>
+    <script src="./clock.js"></script>
+    <script src="./todolist.js"></script>
+</body>
+</html>

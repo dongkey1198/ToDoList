@@ -20,6 +20,7 @@ ul {
 /* Section */
 .wrapper {
   width: 100%;
+  min-width: 320px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -199,4 +200,50 @@ ul {
 .wrapper .footer button:hover {
   color: #fff;
   background-color: #497be8;
+}
+
+@media screen and (min-width: 769px) {
+  .wrapper {
+    max-width: 900px;
+    max-height: 792px;
+  }
+
+  .wrapper header {
+    font-size: 40px;
+  }
+
+  .wrapper .clock .time {
+    font-size: 40px;
+  }
+
+  .wrapper .clock .day {
+    font-size: 40px;
+  }
+
+  .wrapper .input-card .input input {
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .wrapper .input-card .colors li {
+    width: 60px;
+    height: 60px;
+  }
+
+  .wrapper .todoList {
+    height: 500px;
+    max-height: 500px;
+  }
+
+  .wrapper .todoList li {
+    height: 65px;
+    font-size: 30px;
+  }
+
+  .wrapper .footer span {
+    font-size: 25px;
+  }
+  .wrapper .footer button {
+    font-size: 25px;
+  }
 }

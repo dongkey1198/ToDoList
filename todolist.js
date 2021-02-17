@@ -41,6 +41,11 @@ deleteAllBtn.onclick= function(){
 
 addButton.onclick = function(){
     let inputData = inputBox.value;
+
+    if(inputData.length < 1){
+        return;
+    }
+
     let getLocalStorage = localStorage.getItem("todo");
     if(getLocalStorage === null){
         arr = [];

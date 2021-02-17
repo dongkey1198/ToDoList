@@ -21,6 +21,9 @@ ul {
 .wrapper {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #fff;
   border-radius: 8px;
   padding: 25px;
@@ -132,4 +135,68 @@ ul {
 
 .wrapper .input-card .colors li:nth-child(6) {
   background-color: #ffa06d;
+}
+
+.wrapper .todoList {
+  height: 250px;
+  max-height: 250px;
+  overflow: auto;
+  border-radius: 8px;
+  border: 3px solid #fff;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.wrapper .todoList li {
+  width: 99%;
+  height: 30px;
+  font-size: 14px;
+  position: relative;
+  display: flex;
+  color: white;
+  align-items: center;
+  background: grey;
+  margin-top: 5px;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.wrapper .todoList li span {
+  width: 45px;
+  position: absolute;
+  right: -45px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.wrapper .todoList li:hover span {
+  right: 0px;
+}
+
+.wrapper .footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.wrapper .footer span {
+  color: #fff;
+}
+
+.wrapper .footer button {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: grey;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.wrapper .footer button:hover {
+  color: #fff;
+  background-color: #497be8;
 }

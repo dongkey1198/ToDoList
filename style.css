@@ -8,6 +8,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 ul {
@@ -21,14 +23,14 @@ ul {
 .wrapper {
   width: 100%;
   min-width: 320px;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: #fff;
   border-radius: 8px;
   padding: 25px;
-  border: 1px solid black;
   background: linear-gradient(#497be8 0%, #68eacc 100%);
 }
 
@@ -53,16 +55,21 @@ ul {
 .wrapper .input-card {
   width: 100%;
   margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper .input-card .input {
   display: flex;
+  width: 300px;
   justify-content: center;
   align-items: center;
 }
 
 .wrapper .input-card .input input {
-  width: 80%;
+  width: 100%;
   height: 30px;
   font-size: 12px;
   padding: 0 10px;
@@ -96,7 +103,8 @@ ul {
 
 .wrapper .input-card .colors {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  width: 300px;
   margin-top: 15px;
   cursor: pointer;
 }
@@ -109,6 +117,7 @@ ul {
   align-items: center;
   background-color: black;
   border-radius: 100px;
+  margin-left: 5px;
 }
 
 .wrapper .input-card .colors li:hover {
@@ -139,8 +148,9 @@ ul {
 }
 
 .wrapper .todoList {
-  height: 250px;
-  max-height: 250px;
+  height: 100%;
+
+  width: 300px;
   overflow: auto;
   border-radius: 8px;
   border: 3px solid #fff;
@@ -178,6 +188,7 @@ ul {
 }
 
 .wrapper .footer {
+  width: 300px;
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
@@ -204,33 +215,44 @@ ul {
 
 @media screen and (min-width: 769px) {
   .wrapper {
-    max-width: 900px;
-    max-height: 792px;
+    max-width: 100vw;
+    max-height: 100vh;
   }
 
   .wrapper header {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .wrapper .clock .time {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .wrapper .clock .day {
-    font-size: 40px;
+    font-size: 50px;
+  }
+
+  .wrapper .input-card .input {
+    width: 700px;
   }
 
   .wrapper .input-card .input input {
-    height: 40px;
+    height: 50px;
+    width: 100%;
     font-size: 18px;
   }
 
+  .wrapper .input-card .colors {
+    width: 700px;
+    justify-content: space-between;
+    max-width: 700px;
+  }
   .wrapper .input-card .colors li {
     width: 60px;
     height: 60px;
   }
 
   .wrapper .todoList {
+    width: 700px;
     height: 500px;
     max-height: 500px;
   }
@@ -238,6 +260,10 @@ ul {
   .wrapper .todoList li {
     height: 65px;
     font-size: 30px;
+  }
+
+  .wrapper .footer {
+    width: 700px;
   }
 
   .wrapper .footer span {

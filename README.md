@@ -1,6 +1,6 @@
 # 오늘 뭐할까?
 
-<img src= "https://github.com/dongkey1198/ToDoList/blob/main/todo.PNG" width = 500 height = 500>
+<img src= "https://github.com/dongkey1198/ToDoList/blob/main/todo.PNG" width = 400 height = 500>
 
 ---
 ## 프로젝트 계획이유:

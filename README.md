@@ -2,6 +2,7 @@
 
 <img src= "https://github.com/dongkey1198/ToDoList/blob/main/todo.PNG" width = 400 height = 300>
 Website URL: https://dongkey1198.github.io/ToDoList/
+Youtube Link: https://www.youtube.com/watch?v=R-C-LNO_Zo4&list=PLQK6CVAk91WyWH9ORWq_pDTtTsAt5JT_V&index=3
 
 ---
 ## 프로젝트 계획이유:

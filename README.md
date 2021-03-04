@@ -2,6 +2,7 @@
 
 <img src= "https://github.com/dongkey1198/ToDoList/blob/main/todo.PNG" width = 400 height = 300>
 Website URL: https://dongkey1198.github.io/ToDoList/
+
 ---
 ## 프로젝트 계획이유:
 네이트브 앱 개발을 공부하다 문뜩 웹개발에 관심이 생겨 공부하게된 HTML, CSS, JavaScript을 연습하고 싶어 간단한 토이프로젝트 3개를 만들어 보기로하였다. 오늘 뭐할까는 그중 첫 번째 토이 프로젝트이다. 다른 프레임워크들을 사용하지않고 오직 순수 HTML, CSS, Vanila JavaScript만 사용하여 프로젝트를 기본기를 다지는 것이 목표인 프로젝트이다.

@@ -7,7 +7,7 @@ Youtube Link: https://www.youtube.com/watch?v=R-C-LNO_Zo4&list=PLQK6CVAk91WyWH9O
 
 ---
 ## 프로젝트 계획이유:
-네이트 브 앱 개발을 공부하다 문뜩 웹 개발에 관심이 생겨 공부하게 된 HTML, CSS, JavaScript을 연습하고 싶어 간단한 토이 프로젝트 3개를 만들어 보기로 하였다. 오늘 뭐 할까는 그중 첫 번째 토이 프로젝트이다. 다른 프레임워크들을 사용하지 않고 오직 순수 HTML, CSS, Vanila JavaScript만 사용하여 프로젝트를 기본기를 다지는 것이 목표인 프로젝트이다.
+네이티브 앱 개발을 공부하다 문뜩 웹 개발에 관심이 생겨 공부하게 된 HTML, CSS, JavaScript을 연습하고 싶어 간단한 토이 프로젝트 3개를 만들어 보기로 하였다. 오늘 뭐 할까는 그중 첫 번째 토이 프로젝트이다. 다른 프레임워크들을 사용하지 않고 오직 순수 HTML, CSS, Vanila JavaScript만 사용하여 프로젝트를 기본기를 다지는 것이 목표인 프로젝트이다.
 
 ---
 ## 기술 스택:
